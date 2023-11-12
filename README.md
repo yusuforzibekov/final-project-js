@@ -26,4 +26,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 [![Star on GitHub](https://img.shields.io/github/stars/yusuforzibekov/burger.svg?style=social)](https://github.com/yusuforzibekov/burger/stargazers)
 [![Watch on GitHub](https://img.shields.io/github/watchers/yusuforzibekov/burger.svg?style=social)](https://github.com/yusuforzibekov/burger/watchers)
-[![Follow on GitHub](https://img.shields.io/github/followers/yusuforzibekov.burger?style=social)](https://github.com/yusuforzibekov)
+[![Follow on GitHub](https://img.shields.io/github/followers/yusuforzibekov.svg?style=social)](https://github.com/yusuforzibekov)
