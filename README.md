@@ -5,7 +5,7 @@ This is a web application that allows users to order burgers online. The applica
 
 ## Usage
 
-To use the application, simply navigate to the [live demo](https://example.com) and follow the instructions on the screen.
+To use the application, simply navigate to the [live demo](http://42yuarzibekov.me/burger/) and follow the instructions on the screen.
 
 ## Contributing
 
@@ -24,6 +24,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## GitHub Buttons
 
-[![Star on GitHub](https://img.shields.io/github/stars/username/repo.svg?style=social)](https://github.com/username/repo/stargazers)
-[![Watch on GitHub](https://img.shields.io/github/watchers/username/repo.svg?style=social)](https://github.com/username/repo/watchers)
-[![Follow on GitHub](https://img.shields.io/github/followers/username.svg?style=social)](https://github.com/username)
+[![Star on GitHub](https://img.shields.io/github/stars/username/repo.svg?style=social)](https://github.com/yusuforzibekov/burger/stargazers)
+[![Watch on GitHub](https://img.shields.io/github/watchers/username/repo.svg?style=social)](https://github.com/yusuforzibekov/burger/watchers)
+[![Follow on GitHub](https://img.shields.io/github/followers/username.svg?style=social)](https://github.com/yusuforzibekov)
