@@ -1,9 +1,13 @@
-@media (max-width: 1024px) {
+@media (max-width: 1140px) {
     .food {
         &__img {
             & img {
                 width: 100%;
             }
+        }
+
+        &__list {
+            width: $col-12;
         }
     }
 }
@@ -48,7 +52,9 @@
 @media (max-width: 375px) {
     .food {
         &__list {
-            justify-content: space-evenly;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column !important;
         }
 
         &__item {
