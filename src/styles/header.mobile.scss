@@ -22,7 +22,16 @@
                 transition: 0.3s;
                 transform: translateX(-100%);
                 padding: 0;
-                z-index: 2;
+                gap: 30px;  
+            }
+
+            & .header__item {
+                padding: 0;
+                
+
+                &:hover {
+                    background: none;
+                }
             }
 
             &.open {
@@ -32,7 +41,7 @@
 
                 & .header-burger__item:nth-child(1) {
                     background: $white;
-                    transform: translate(2px, 8px) rotate(45deg);
+                    transform: translate(2px, 10px) rotate(45deg);
                 }
 
                 & .header-burger__item:nth-child(2) {
