@@ -1,0 +1,58 @@
+@media (max-width: 1024px) {
+    .food {
+        &__img {
+            & img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .food {
+        &__link {
+            font-size: 18px;
+        }
+
+        &__img {
+            &-price {
+                font-size: 18px;
+                padding: 15px 38px;
+            }
+        }
+
+        &__desc {
+            &-title {
+                font-size: 20px;
+            }
+
+            &-txt {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .food {
+        &__item {
+            margin-right: 25px;
+        }
+
+        &__card {
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .food {
+        &__list {
+            justify-content: space-evenly;
+        }
+
+        &__item {
+            margin: 0 20px 10px 0;
+        }
+    }
+}

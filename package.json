@@ -1,0 +1,16 @@
+{
+  "name": "final-project-js",
+  "version": "1.0.0",
+  "description": "Final Project JS from IT Park University",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-sass --watch src/styles/style.scss src/dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://autocode.git.epam.com/yusufbek_orzibekov/final-project-js"
+  },
+  "author": "yusufbek_orzibekov",
+  "license": "ISC"
+}
