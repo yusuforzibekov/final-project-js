@@ -12,6 +12,16 @@
     }
 }
 
+@media (max-width: 828px) {
+    .food {
+        &__img {
+            &-price {
+                padding: 8px 30px !important;
+            }
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .food {
         &__link {
@@ -37,7 +47,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 648px) {
     .food {
         &__item {
             margin-right: 25px;
@@ -49,7 +59,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 432px) {
     .food {
         &__list {
             justify-content: center;
@@ -59,6 +69,10 @@
 
         &__item {
             margin: 0 20px 10px 0;
+        }
+
+        &__card {
+            width: 100%;
         }
     }
 }

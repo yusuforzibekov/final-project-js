@@ -223,10 +223,9 @@ main {
   main .food {
     padding: 50px 0; }
     main .food__list {
-      width: calc(100% / 12 * 9);
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-items: center;
       margin: 70px auto;
       gap: 30px; }
@@ -351,7 +350,8 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 auto; }
+    margin: 0 auto;
+    gap: 10px; }
   .footer__link {
     font-family: "Raleway-Thin";
     transition: .5s; }
@@ -412,6 +412,10 @@ main {
   .food__list {
     width: 100%; } }
 
+@media (max-width: 828px) {
+  .food__img-price {
+    padding: 8px 30px !important; } }
+
 @media (max-width: 768px) {
   .food__link {
     font-size: 18px; }
@@ -423,19 +427,21 @@ main {
   .food__desc-txt {
     font-size: 14px; } }
 
-@media (max-width: 576px) {
+@media (max-width: 648px) {
   .food__item {
     margin-right: 25px; }
   .food__card {
     width: 50%; } }
 
-@media (max-width: 375px) {
+@media (max-width: 432px) {
   .food__list {
     justify-content: center;
     text-align: center;
     flex-direction: column !important; }
   .food__item {
-    margin: 0 20px 10px 0; } }
+    margin: 0 20px 10px 0; }
+  .food__card {
+    width: 100%; } }
 
 @media (max-width: 768px) {
   .recipe__txt {
