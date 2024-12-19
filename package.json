@@ -12,5 +12,8 @@
     "url": "https://autocode.git.epam.com/yusufbek_orzibekov/final-project-js"
   },
   "author": "yusufbek_orzibekov",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.3"
+  }
 }
