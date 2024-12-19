@@ -13,6 +13,39 @@
         object-position: center;
     }
 
+    &-burger {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        cursor: pointer;
+        display: none;
+
+        &__item {
+            position: absolute;
+            height: 2px;
+            background: #fff;
+            transition: 0.5s;
+
+            &:nth-child(1) {
+                width: 50%;
+                top: 0;
+                left: 0;
+            }
+
+            &:nth-child(2) {
+                width: 100%;
+                top: 49%;
+                left: 0;
+            }
+
+            &:nth-child(3) {
+                width: 50%;
+                right: 0;
+                bottom: 0;
+            }
+        }
+    }
+
     & .unmute-btn {
         transform: scale(2);
         cursor: pointer;
