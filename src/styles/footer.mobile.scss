@@ -1,7 +1,27 @@
-@media (max-width: 576px) {
+@media screen and (max-width: 830px) {
     .footer {
         &__list {
             width: $col-12;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer {
+        &__menu {
+            flex-direction: column;
+        }
+
+        &__logo {
+            margin-bottom: 10px;
+        }
+
+        &__list {
+            justify-content: center;
+        }
+
+        &__item {
+            margin: 0 5px 5px;
         }
     }
 }
@@ -35,26 +55,6 @@
 
         &__copy {
             font-size: 14px;
-        }
-    }
-}
-
-@media (max-width: 375px) {
-    .footer {
-        &__menu {
-            flex-direction: column;
-        }
-
-        &__logo {
-            margin-bottom: 10px;
-        }
-
-        &__list {
-            justify-content: center;
-        }
-
-        &__item {
-            margin: 0 5px 5px;
         }
     }
 }

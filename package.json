@@ -7,7 +7,7 @@
     "postinstall": "cd ./test && npm i || true",
     "test": "cd ./tests && npm run tes  t",
     "build": "echo \"Dummy build script for Autocode\"",
-    "compile": "node-sass src/styles/style.scss src/dist/style.css",
+    "compile": "node-sass --watch src/styles/style.scss src/dist/style.css",
     "start": "npx browser-sync start --server 'src' --files 'src/**/*.*'",
     "prod": "npm run compile && npm run start"
   },

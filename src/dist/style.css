@@ -437,9 +437,19 @@ main {
   .recipe {
     padding-bottom: 50px; } }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 830px) {
   .footer__list {
     width: 100%; } }
+
+@media screen and (max-width: 650px) {
+  .footer__menu {
+    flex-direction: column; }
+  .footer__logo {
+    margin-bottom: 10px; }
+  .footer__list {
+    justify-content: center; }
+  .footer__item {
+    margin: 0 5px 5px; } }
 
 @media (max-width: 412px) {
   .food__list {
@@ -457,13 +467,3 @@ main {
     font-size: 18px; }
   .food__copy {
     font-size: 14px; } }
-
-@media (max-width: 375px) {
-  .footer__menu {
-    flex-direction: column; }
-  .footer__logo {
-    margin-bottom: 10px; }
-  .footer__list {
-    justify-content: center; }
-  .footer__item {
-    margin: 0 5px 5px; } }
