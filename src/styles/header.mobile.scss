@@ -32,6 +32,10 @@
                 &:hover {
                     background: none;
                 }
+
+                & .header__link {
+                    font-family: $font-medium;
+                }
             }
 
             &.open {

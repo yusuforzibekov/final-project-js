@@ -28,6 +28,12 @@
   font-weight: 100;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: url("../assets/fonts/Raleway-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
 /*--- Variables ---*/
 .header #bg-video {
   position: fixed;
@@ -416,6 +422,8 @@ main {
     padding: 0; }
     .header__nav .header__item:hover {
       background: none; }
+    .header__nav .header__item .header__link {
+      font-family: "Raleway-Medium"; }
   .header__nav.open .header__list {
     transform: translateX(0); }
   .header__nav.open .header-burger__item:nth-child(1) {
