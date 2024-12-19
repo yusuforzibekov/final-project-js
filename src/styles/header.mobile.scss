@@ -5,13 +5,8 @@
             z-index: 999;
         }
 
-        &-navbar {
-            &__brand {
-                padding-left: 0;
-                z-index: 999;
-            }
-
-            &__items {
+        &__nav {
+            & .header__list {
                 position: fixed;
                 left: 0;
                 top: 0;
@@ -27,7 +22,7 @@
                 transition: 0.3s;
                 transform: translateX(-100%);
                 padding: 0;
-                z-index: 1;
+                z-index: 2;
             }
 
             &.open {

@@ -36,6 +36,7 @@ a {
     background: $bg-logo;
     box-shadow: $shadow;
     color: $white;
+    z-index: 3;
 }
 
 @import 'grids';
