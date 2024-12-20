@@ -20,7 +20,7 @@ main {
             position: relative;
 
             &:hover,
-            &:focus {
+            &:focus, &.active {
                 color: $title-color;
 
                 &::before {

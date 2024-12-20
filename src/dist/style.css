@@ -268,9 +268,9 @@ main {
       font-family: "Raleway-Bold";
       color: #7a7a7a;
       position: relative; }
-      main .food__link:hover, main .food__link:focus {
+      main .food__link:hover, main .food__link:focus, main .food__link.active {
         color: #69cf17; }
-        main .food__link:hover::before, main .food__link:focus::before {
+        main .food__link:hover::before, main .food__link:focus::before, main .food__link.active::before {
           width: 100%;
           background: #69cf17; }
       main .food__link::before {

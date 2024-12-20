@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setupVideoUnmuteButton();
     setupBurgerMenu();
     sortFoods();
+    setActiveLinkWithHover();
 });
 
 function setupScrollToTopButton() {
@@ -79,12 +80,38 @@ function sortFoods() {
             foodCards.forEach(card => {
                 const cardType = card.getAttribute('data-type');
 
-                if (category== 'All' || cardType === category) {
+                if (category == 'All' || cardType === category) {
                     card.style.display = 'block';
                 } else {
                     card.style.display = 'none';
                 }
             });
+        });
+    });
+}
+
+function setActiveLinkWithHover() {
+    // Select all food links
+    const foodLinks = document.querySelectorAll('.food__link');
+
+    // Helper function to set the active class
+    const setActiveClass = (link) => {
+        // Remove 'active' class from all links
+        foodLinks.forEach(l => l.classList.remove('active'));
+        // Add 'active' class to the hovered or clicked link
+        link.classList.add('active');
+    };
+
+    foodLinks.forEach(link => {
+        // Add 'mouseover' event for hover
+        link.addEventListener('mouseover', () => {
+            setActiveClass(link);
+        });
+
+        // Add 'click' event for clicking
+        link.addEventListener('click', (event) => {
+            event.preventDefault(); // Prevent default link behavior
+            setActiveClass(link);
         });
     });
 }
