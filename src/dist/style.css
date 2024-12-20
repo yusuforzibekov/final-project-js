@@ -328,7 +328,7 @@ main {
         transition: .5s; }
 
 .recipe {
-  background: url(../assets/section_bg.png) center center/cover;
+  background: url("../assets/images/section_bg.png") center center/cover;
   padding: 50px 0 150px; }
   .recipe__title {
     color: #69cf17;
@@ -510,7 +510,8 @@ main {
   .footer__logo {
     margin-bottom: 10px; }
   .footer__list {
-    justify-content: center; }
+    justify-content: center;
+    margin: 0 auto; }
   .footer__item {
     margin: 0 5px 5px; } }
 
