@@ -10,9 +10,9 @@ function setupScrollToTopButton() {
     const topButton = document.getElementById('top');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 100) {
-            topButton.style.display = 'block';
+            topButton.style.transform = 'scale(1)';
         } else {
-            topButton.style.display = 'none';
+            topButton.style.transform = 'scale(0)';
         }
     });
 
