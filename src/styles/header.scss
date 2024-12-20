@@ -63,19 +63,4 @@
         color: #fff;
         width: max-content;
     }
-
-    &-sliders {
-        position: relative;
-        z-index: 1;
-    }
-
-    &-slider {
-        & img {
-            width: 100%;
-            position: absolute;
-            left: 0;
-            top: 0;
-            border-radius:  15px;
-        }
-    }
 }
