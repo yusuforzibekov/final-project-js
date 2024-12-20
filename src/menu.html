@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Linking Styles -->
+    <link rel="stylesheet" href="dist/style.css">
+    <!-- Linking Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icon.png">
+</head>
+
+<body>
+    <header style="background: url(assets/images/header_bg.png) center center / cover;" class="header">
+        <div class="container">
+            <div class="row mh-100 flex-column">
+                <div class="col-12">
+                    <nav class="header__nav">
+                        <a href="index.html" class="header__logo logo">street88</a>
+                        <div class="header-burger">
+                            <span class="header-burger__item"></span>
+                            <span class="header-burger__item"></span>
+                            <span class="header-burger__item"></span>
+                        </div>
+                        <ul class="header__list d-flex">
+                            <li class="header__item">
+                                <a href="" class="header__link">Menu</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="" class="header__link">About</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="" class="header__link">Contacts</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="" class="header__link">Cart 🛒</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-10 m-auto">
+                    <div class="header-sliders">
+                        <div class="header-slider">
+                            <img src="assets/images/slider1.jpg" alt="Slider Image 1">
+                        </div>
+                        <div class="header-slider">
+                            <img src="assets/images/slider2.jpg" alt="Slider Image 2">
+                        </div>
+                        <div class="header-slider">
+                            <img src="assets/images/slider3.jpg" alt="Slider Image 3">
+                        </div>
+                    </div>
+
+                    <div class="btns">
+                        <button class="btn btn--prev">◀️</button>
+                        <ul class="indicators">
+                            <li class="indicator" data-slide-to="0"></li>
+                            <li class="indicator" data-slide-to="1"></li>
+                            <li class="indicator" data-slide-to="2"></li>
+                        </ul>
+                        <button class="btn btn--next">▶️</button>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <div id="top">↑</div>
+    </header>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer__nav">
+                <div class="footer__menu">
+                    <a href="#" class="footer__logo logo">street88</a>
+                    <a href="tel:+998997902560" class="footer__call">+998 99 790 25 60</a>
+                </div>
+                <ul class="footer__list col-8">
+                    <li class="footer__item"><a href="#" class="footer__link">Menu</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">About</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Contacts</a></li>
+                    <li class="footer__item"><a href="https://instagram.com/" class="footer__link">Instagram</a></li>
+                    <li class="footer__item"><a href="https://facebook.com/" class="footer__link">Facebook</a></li>
+                    <li class="footer__item"><a href="https://telegram.org/" class="footer__link">Telegram</a></li>
+                </ul>
+            </nav>
+            <p class="footer__copy">Developed for educational purposes © ITPU 2024</p>
+        </div>
+    </footer>
+
+    <!-- Linking Scripts -->
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

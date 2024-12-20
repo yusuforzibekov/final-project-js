@@ -15,6 +15,10 @@
     min-height: 100vh;
 }
 
+.m-auto {
+    margin: 0 auto
+}
+
 @for $i from 1 through 12 {
     .col-#{$i} {
         width: calc(100% / 12 * #{$i});
